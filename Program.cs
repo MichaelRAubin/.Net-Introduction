@@ -9,10 +9,10 @@ namespace PrimativeTypes
             Console.Clear();
             Console.WriteLine("Welcome to Dotnet 101!");
             Console.WriteLine("What is your name?");
-            string name = Console.Readline();
+            string name = Console.ReadLine();
             Console.WriteLine($"Welcome to class, {name}!");
             Console.WriteLine("How old are you?");
-            string strAge = Console.Readline();
+            string strAge = Console.ReadLine();
             Int32.TryParse(strAge, out int age);
             System.Console.WriteLine($"In ten years {name} will be {age + 10}.");
 
