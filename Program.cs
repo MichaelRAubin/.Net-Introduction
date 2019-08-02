@@ -15,11 +15,12 @@ namespace PrimativeTypes
             string strAge = Console.ReadLine();
             Int32.TryParse(strAge, out int age);
             System.Console.WriteLine($"In ten years {name} will be {age + 10}.");
-
-            //var userInput = Console.Readline();
-
-
-
+            #region 
+            /*
+            var userInput = Console.Readline();
+            This is my first application!
+            */
+            #endregion
 
 
 
